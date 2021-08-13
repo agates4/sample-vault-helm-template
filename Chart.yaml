@@ -1,0 +1,16 @@
+#
+# infra-python-starter-api/Chart.yaml
+#
+# The chart definition of the infra-python-starter-api chart.
+# This chart defines values that are templated into the wf-common helm chart
+#
+
+type: application
+apiVersion: v1
+appVersion: "1.0"
+name: python-service
+version: 0.4.0
+description: "The sample python starter chart"
+maintainers:
+  - name: Infrastructure
+    email: aron@pachama.com
